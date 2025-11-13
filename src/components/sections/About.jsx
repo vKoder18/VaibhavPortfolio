@@ -2,14 +2,16 @@ import { RevealOnScroll } from "../RevealOnScroll";
 
 export const About = () => {
   const frontendSkills = [
-    "React",
-    "Vue",
+    "Next.js",
+    "React,js",
+    "Javascript",
     "TypeScript",
     "TailwindCSS",
-    "Svelte",
+    "HTML",
+    "CSS"
   ];
 
-  const backendSkills = ["Node.js", "Python", "AWS", "MongoDB", "GraphQL"];
+  const backendSkills = ["Node.js", "Express.js", "RabbitMQ" , "Redis" , "ElasticSearch" , "Docker" , "AWS EC2", "MongoDB" , "Scoket.io"];
 
   return (
     <section
@@ -69,40 +71,42 @@ export const About = () => {
               <h3 className="text-xl font-bold mb-4"> 🏫 Education </h3>
               <ul className="list-disc list-inside text-gray-300 space-y-2">
                 <li>
-                  <strong> B.S. in Computer Science </strong> - XYZ University
-                  (2016-2020)
+                  <strong> B.Tech in Computer Science </strong> - MNNIT ALLAHABAD
+                  (2022-2026)
                 </li>
                 <li>
-                  Relevant Coursework: Data Structures, Web Development, Cloud
-                  Computing...
+                  <strong>Relevant Coursework: </strong>
+                </li>
+                <li>
+                  <strong>Data Structures and Algorithms </strong>
+                </li>
+                <li>
+                  <strong>Object Oriented Programming</strong>
+                </li>
+                <li>
+                  <strong>Operating Systems</strong>
+                </li>
+                <li>
+                  <strong>Database Management Systems</strong>
                 </li>
               </ul>
             </div>
             <div className="p-6 rounded-xl border-white/10 border hover:-translate-y-1 transition-all">
-              <h3 className="text-xl font-bold mb-4"> 💼 Work Experience </h3>
-              <div className="space-y-4 text-gray-300">
-                <div>
-                  <h4 className="font-semibold">
-                    {" "}
-                    Software Engineer at ABC Corp (2020 - Present){" "}
-                  </h4>
-                  <p>
-                    Developed and maintained microservices for cloud-based
-                    applications.
-                  </p>
-                </div>
-
-                <div>
-                  <h4 className="font-semibold">
-                    {" "}
-                    Intern at DEF Startups (2019){" "}
-                  </h4>
-                  <p>
-                    Assisted in building front-end components and integration
-                    REST APIs
-                  </p>
-                </div>
-              </div>
+              <h3 className="text-xl font-bold mb-4"> 💼 Achievements</h3>
+              <ul className="list-disc list-inside text-gray-300 space-y-2">
+                <li>
+                  <strong> Global Rank: 285</strong>  in LeetCode Biweekly Contest 158 (out of 27000+ participants) 
+                </li>
+                <li>
+                <strong>Solved 500+ </strong> problems on Data Structures and Algorithms :
+                </li>
+                <li>
+                <strong>Top 10 </strong>in Codotron (team-based event organized under AVISHKAR MNNIT)
+                </li>
+                <li>
+                <strong>Finalists in Codesangam </strong>(development event organized by Coding Club MNNIT)
+                </li>
+              </ul>
             </div>
           </div>
         </div>
