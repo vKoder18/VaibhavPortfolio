@@ -76,6 +76,6 @@ your-portfolio/
 └── README.md
 ```
 
-## Technologies
+## Deployed Link
 
 https://vaibhav-portfolio-4n7w.vercel.app/
